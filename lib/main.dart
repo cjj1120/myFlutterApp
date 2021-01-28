@@ -11,8 +11,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://ec.europa.eu/programmes/creative-europe/sites/default/files/covid19-cdc-unsplash.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
